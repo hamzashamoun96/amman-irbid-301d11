@@ -1,5 +1,5 @@
 'use strict';
-/*
+
 // STEP 1
 // This is a standard function expression. You may also be familiar with function declarations, which begin with the "function" keyword.
 const theOldWay = function(course) {
@@ -139,7 +139,7 @@ let message = (name) =>`Hello, ${name}!`;
 // TODO: Uncomment the following line of code to see the output in the browser console
  console.log(message('Allie'));
 
-*/
+
 let Student = function(name, age, hometown) {
   this.name = name;
   this.age = age;
